@@ -23,7 +23,7 @@ for idx in range(0,16):
     height = heights[idx]
     for i in ['256','512','1024','2048']:
         os.system('python3 eval.py --metric mse --gop_size 16 --lambda_i 3 --intra_period 16 \
-          --pretrain models/' + i + '.pth \
+          --pretrain ckpts/' + i + '.pth \
           --eval_lambda ' + i + ' --src /data/test/' + names[idx] +  \
           ' --seq_name ' + names[idx] + ' --num_frames 97 \
           --width ' + str(width) + ' --height ' + str(height) )
