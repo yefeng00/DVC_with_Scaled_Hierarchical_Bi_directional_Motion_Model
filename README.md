@@ -1,4 +1,4 @@
-# DVC_with_Scaled_Hierarchical_Bi_directiona_Motion_Model
+# DVC_with_Scaled_Hierarchical_Bi_directional_Motion_Model
 
 ## Installation
 
@@ -30,3 +30,6 @@ Downloaded from: https://drive.google.com/drive/folders/1qHRbCriy224rna7FfveVg06
 1. Change the `src` in `test.py`(Dir of test datasets).
 2. Put pretrain models into ./ckpts folder
 2. `Run test.py`:
+
+## Paper
+Our work has been accept by ACM MM 2024: Feng Ye, Li Zhang, and Chuanmin Jia. 2024. Deep Video Compression with Scaled Hierarchical Bi-directional Motion Model. In Proceedings of the 32nd ACM International Conference on Multimedia (MM ’24), October 28-November 1, 2024, Melbourne, VIC, Australia. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3664647.3685524
